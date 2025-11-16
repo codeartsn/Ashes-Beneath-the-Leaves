@@ -17,17 +17,65 @@ body {
     transform: translateX(-50%);
     width: 85%;
     max-width: 1100px;
+
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    gap: 20px;
+
+    padding: 20px 30px;
     background: rgba(0, 20, 25, 0.8);
     backdrop-filter: blur(10px);
     border-radius: 50px;
     border: 1px solid rgba(255,255,255,0.1);
     box-shadow: 0 0 25px rgba(121,249,227,0.15);
+
     z-index: 999;
 }
+
+/* LOGO stays fixed — does not scroll */
+.logo {
+    flex: 0 0 auto;
+    font-size: 1.3rem;
+    color: #79f9e3;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* NAV LINKS — scrollable */
+/* Scrollable nav */
+.nav-scroll {
+    flex: 1;
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    scroll-snap-type: x mandatory;   /* snapping */
+
+}
+
+.nav-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+/* Only show 4 items at a time */
+.nav-scroll a {
+    flex: 0 0 25%;  /* 100% / 4 = 25% → exactly 4 visible */
+    text-align: center;
+
+    padding: 5px 0;
+    font-weight: 600;
+    color: #d4e3e1;
+    text-decoration: none;
+
+    scroll-snap-align: center;   /* snaps cleanly */
+    transition: color 0.3s ease;
+}
+
+.nav-scroll a:hover {
+    color: #79f9e3;
+}
+
 
 .logo {
     font-size: 1.3rem;
