@@ -1,7 +1,7 @@
 body {
     position: relative;
     margin: 0;
-    background-image: url("images/main.png");
+    background-image: url("../images/main.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -155,20 +155,76 @@ article:hover{
     box-shadow: 0 10px 20px rgba(121,249,227,0.6);
  }
 
-article{
-    background: rgba(0, 20, 25, 0.5);
-    width: 550px;
-    border: 2px solid rgba(121,249,227,0.3);
-    box-shadow: 0 0 20px rgba(121,249,227,0.15);
-    margin: 25px auto;
+.lore-intro {
+    margin: 80px auto;
+    width: 90%;
+    max-width: 900px;
+}
+
+.lore-box {
+    background: rgba(0, 20, 25, 0.55);
+    border: 2px solid rgba(121,249,227,0.25);
+    box-shadow: 0 0 18px rgba(121,249,227,0.25);
+    padding: 35px 40px;
     border-radius: 15px;
-    max-width: 200px;
-    height: 250px;
-    gap: 5px;
-    transition: 0.8s;
     text-align: center;
-    padding: 20px 30px 30px 30px;
-    line-height: 30px;
+    animation: fadeUp 1.2s ease;
+}
+
+.lore-title {
+    color: #79f9e3;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+h1, h2, .cards {
+    color: #79f9e3;
+    margin-bottom: 20px;
+}
+
+.cards {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+
+/* -------------------------
+   WHAT AWAITS YOU (NEW STYLE)
+------------------------- */
+
+.feature-row {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.feature-card {
+    background: rgba(0, 20, 25, 0.45);
+    border: 2px solid rgba(121,249,227,0.25);
+    padding: 25px 20px;
+    width: 250px;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.4s ease;
+    box-shadow: 0 0 15px rgba(121,249,227,0.2);
+}
+
+.feature-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(121,249,227,0.6);
+}
+
+.feature-card h3 {
+    color: #79f9e3;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    font-size: 0.9rem;
 }
 
 .btn {
@@ -194,4 +250,91 @@ footer {
     text-align: center;
     font-size: 0.9rem;
 }
+
+/* Smooth fade-in for whole page */
+body {
+    animation: fadeIn 1.2s ease-in-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Logo subtle hover animation */
+.nav-logo {
+    transition: 0.3s ease;
+}
+.nav-logo:hover {
+    transform: scale(1.12);
+    box-shadow: 0 0 20px rgba(121,249,227,0.9);
+}
+
+/* Navbar slide-down animation */
+.navbar {
+    animation: navDrop 0.8s ease-out;
+}
+@keyframes navDrop {
+    from { transform: translate(-50%, -40px); opacity: 0; }
+    to { transform: translate(-50%, 0); opacity: 1; }
+}
+
+/* Hero text fade-in left, map fade-in right */
+.hero .text:first-child {
+    animation: slideLeft 1.2s ease;
+}
+@keyframes slideLeft {
+    from { opacity: 0; transform: translateX(-50px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+.hero .text:last-child {
+    animation: slideRight 1.2s ease;
+}
+@keyframes slideRight {
+    from { opacity: 0; transform: translateX(50px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+/* Parallax scroll effect */
+body {
+    background-attachment: fixed;
+}
+
+/* Cards slight tilt on hover */
+article:hover {
+    transform: scale(1.03) rotate(0.7deg);
+}
+
+/* RESPONSIVE FIXES */
+@media (max-width: 900px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    #map {
+        margin-top: 30px;
+        width: 260px;
+        height: 180px;
+    }
+    article {
+        max-width: 300px;
+        height: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        width: 95%;
+        padding: 15px 20px;
+    }
+    .cards {
+        font-size: 22px;
+    }
+    h1 {
+        font-size: 1.6rem;
+    }
+}
+
 
