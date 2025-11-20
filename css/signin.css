@@ -1,6 +1,10 @@
 body {
     margin: 0;
-    background: linear-gradient(135deg, #001214, #01272a, #043f3f);
+    background-image: url(../images/tree.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     font-family: "Metamorphous", serif;
     color: #d4e3e1;
     display: flex;
@@ -8,6 +12,7 @@ body {
     align-items: center;
     height: 100vh;
 }
+
 
 /* Container Box */
 .auth-container {
