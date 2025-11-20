@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/legal.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Metamorphous", serif;
+    color: #d4e3e1;
+}
+
+.navbar {
+    background: rgba(0, 20, 25, 0.8);
+    backdrop-filter: blur(10px);
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid rgba(121,249,227,0.3);
+}
+
+.nav-logo {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid #79f9e3;
+    box-shadow: 0 0 10px rgba(121,249,227,0.6);
+}
+
+.title {
+    color: #79f9e3;
+    font-size: 1.7rem;
+}
+
+.policy-container {
+    /*background: rgba(0, 20, 25, 0.6);*/
+    /*border: 1px solid rgba(121,249,227,0.25);*/
+    /*box-shadow: 0 0 20px rgba(121,249,227,0.3);*/
+    width: 60%;
+    margin: 80px auto;
+    padding: 40px 50px;
+    border-radius: 15px;
+}
+
+h1, h2 {
+    color: #0fe7e1;
+}
+
+.update {
+    font-size: 0.9rem;
+    color: #8be8d2;
+    margin-bottom: 20px;
+}
+
+ul {
+    margin-left: 25px;
+    line-height: 28px;
+}
+
+.email {
+    font-size: 1rem;
+    color: #79f9e3;
+}
+
+
