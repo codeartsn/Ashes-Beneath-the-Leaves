@@ -136,7 +136,11 @@ h1, h2 ,.cards{
 .card {
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+article{
     background: rgba(0, 20, 25, 0.5);
+    width: 550px;
     border: 2px solid rgba(121,249,227,0.3);
     box-shadow: 0 0 20px rgba(121,249,227,0.15);
     padding: 25px;
@@ -144,8 +148,8 @@ h1, h2 ,.cards{
     border-radius: 15px;
     max-width: 200px;
     height: 250px;
-    gap: 20px;
-    }
+    gap: 10px;
+}
 
 .btn {
     display: inline-block;
