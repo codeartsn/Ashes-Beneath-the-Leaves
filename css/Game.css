@@ -144,17 +144,6 @@ h1, h2 ,.cards{
 
 }
 
-.card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-article:hover{
-    transform: scale(1);
-    cursor: pointer;
-    box-shadow: 0 10px 20px rgba(121,249,227,0.6);
- }
-
 .lore-intro {
     margin: 80px auto;
     width: 90%;
@@ -237,7 +226,7 @@ h1, h2, .cards {
     background: radial-gradient(circle at top, #1a2b2e, #0a0f12, #000000);
     color: #fff;
 }
-/* Social Media Footer-Bar Section */
+
 .social-bar {
     background: rgba(200, 200, 200, 0.15);
     border-top: 1px solid rgba(255,255,255,0.15);
@@ -271,7 +260,6 @@ h1, h2, .cards {
     font-size: 1rem;
 }
 
-/* Hover Glow Colors */
 .social-icon.youtube:hover {
     background: #ff0000;
     color: white;
@@ -296,7 +284,6 @@ footer {
     font-size: 0.9rem;
 }
 
-/* Smooth fade-in for whole page */
 body {
     animation: fadeIn 1.2s ease-in-out;
 }
@@ -347,7 +334,6 @@ article:hover {
     transform: scale(1.03) rotate(0.7deg);
 }
 
-/* RESPONSIVE FIXES */
 @media (max-width: 900px) {
     .hero {
         flex-direction: column;
