@@ -138,17 +138,26 @@ h1, h2 ,.cards{
     flex-direction: row;
     align-items: center;
 }
+article:hover{
+    transform: scale(1);
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(121,249,227,0.6);
+ }
+
 article{
     background: rgba(0, 20, 25, 0.5);
     width: 550px;
     border: 2px solid rgba(121,249,227,0.3);
     box-shadow: 0 0 20px rgba(121,249,227,0.15);
-    padding: 25px;
     margin: 25px auto;
     border-radius: 15px;
     max-width: 200px;
     height: 250px;
-    gap: 10px;
+    gap: 5px;
+    transition: 0.8s;
+    text-align: center;
+    padding: 20px 30px 30px 30px;
+    line-height: 30px;
 }
 
 .btn {
@@ -173,4 +182,7 @@ footer {
     padding: 20px;
     text-align: center;
     font-size: 0.9rem;
+}
+@keyframes  {
+    
 }
