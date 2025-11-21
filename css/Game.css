@@ -254,9 +254,6 @@ footer {
     from { opacity: 0; transform: translateX(50px); }
     to { opacity: 1; transform: translateX(0); }
 }
-article:hover {
-    transform: scale(1.03) rotate(0.7deg);
-}
 @media (max-width: 900px) {
     .hero {
         flex-direction: column;
@@ -268,10 +265,6 @@ article:hover {
         margin-top: 30px;
         width: 260px;
         height: 180px;
-    }
-    article {
-        max-width: 300px;
-        height: auto;
     }
 }
 @media (max-width: 600px) {
