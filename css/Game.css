@@ -22,6 +22,7 @@ body {
 .navbar {
     position: fixed;
     top: 20px;
+    left: 50%;
     width: 75%;
     height: 35px;
     max-width: 1100px;
@@ -35,6 +36,7 @@ body {
     border: 1px solid rgba(255,255,255,0.1);
     box-shadow: 0 0 25px rgba(121,249,227,0.15);
     z-index: 999;
+    transform: translateX(-50%);
 }
 .nav-scroll {
     flex: 1;
