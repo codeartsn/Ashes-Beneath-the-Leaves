@@ -244,9 +244,6 @@ footer {
     transform: scale(1.12);
     box-shadow: 0 0 20px rgba(121,249,227,0.9);
 }
-.navbar {
-    animation: navDrop 0.8s ease-out;
-}
 .hero .text:first-child {
     animation: slideLeft 1.2s ease;
 }
