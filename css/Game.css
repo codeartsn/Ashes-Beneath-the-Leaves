@@ -6,7 +6,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
     color: #d4e3e1;
     overflow-x: hidden;
     padding-top: 120px;
@@ -31,21 +30,17 @@ body {
     width: 75%;
     height: 35px;
     max-width: 1100px;
-
     display: flex;
     align-items: center;
     gap: 15px;
-
     padding: 20px 30px;
     background: rgba(0, 20, 25, 0.8);
     backdrop-filter: blur(10px);
     border-radius: 50px;
     border: 1px solid rgba(255,255,255,0.1);
     box-shadow: 0 0 25px rgba(121,249,227,0.15);
-
     z-index: 999;
 }
-
 .logo {
     flex: 0 0 auto;
     font-size: 1.3rem;
@@ -53,8 +48,6 @@ body {
     font-weight: bold;
     white-space: nowrap;
 }
-
-
 .nav-scroll {
     flex: 1;
     display: flex;
@@ -74,13 +67,11 @@ body {
 .nav-scroll a {
     flex: 0 0 22%;
     text-align: center;
-
     padding: 4px 0;
     font-weight: 600;
     color: #d4e3e1;
     text-decoration: none;
-
-    scroll-snap-align: center;   /* snaps cleanly */
+    scroll-snap-align: center;
     transition: color 0.3s ease;
 }
 
@@ -300,16 +291,10 @@ body {
     box-shadow: 0 0 20px rgba(121,249,227,0.9);
 }
 
-/* Navbar slide-down animation */
 .navbar {
     animation: navDrop 0.8s ease-out;
 }
-@keyframes navDrop {
-    from { transform: translate(-50%, -40px); opacity: 0; }
-    to { transform: translate(-50%, 0); opacity: 1; }
-}
 
-/* Hero text fade-in left, map fade-in right */
 .hero .text:first-child {
     animation: slideLeft 1.2s ease;
 }
