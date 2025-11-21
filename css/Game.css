@@ -12,6 +12,7 @@ body {
     padding-top: 120px;
     font-family: "Metamorphous", serif;
     height: auto;
+    animation: fadeIn 1.2s ease-in-out;
 }
 .nav-logo {
     width: 50px;
@@ -285,7 +286,6 @@ footer {
 }
 
 body {
-    animation: fadeIn 1.2s ease-in-out;
 }
 @keyframes fadeIn {
     from { opacity: 0; }
@@ -324,10 +324,6 @@ body {
 @keyframes slideRight {
     from { opacity: 0; transform: translateX(50px); }
     to { opacity: 1; transform: translateX(0); }
-}
-
-body {
-    background-attachment: fixed;
 }
 
 article:hover {
