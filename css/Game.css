@@ -7,11 +7,10 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #d4e3e1;
-    overflow-x: hidden;
     padding-top: 120px;
     font-family: "Metamorphous", serif;
     height: auto;
-    animation: fadeIn 1.2s ease-in-out;
+    animation: fadeIn 1.2s;
 }
 .nav-logo {
     width: 50px;
@@ -20,7 +19,6 @@ body {
     border: 2px solid #79f9e3;
     box-shadow: 0 0 12px rgba(121,249,227,0.6);
 }
-
 .navbar {
     position: fixed;
     top: 20px;
@@ -204,7 +202,7 @@ h1, h2, .cards {
     justify-content: center;
     gap: 35px;
 }
-.social-icon {
+.icon {
     padding: 12px 25px;
     border-radius: 10px;
     text-decoration: none;
