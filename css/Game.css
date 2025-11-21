@@ -54,22 +54,17 @@ body {
     font-weight: 600;
     color: #d4e3e1;
     text-decoration: none;
-    scroll-snap-align: center;
     transition: color 0.3s ease;
 }
-
 .nav-scroll a:hover {
     color: #79f9e3;
 }
-
-
 .logo {
     font-size: 1.3rem;
     color: #79f9e3;
     font-weight: bold;
     letter-spacing: 2px;
 }
-
 nav a {
     color: #d4e3e1;
     margin: 0 10px;
@@ -77,11 +72,9 @@ nav a {
     font-weight: 600;
     transition: color 0.3s ease;
 }
-
 nav a:hover {
     color: #79f9e3;
 }
-
 main {
     text-align: left;
     padding: 60px 20px;
@@ -110,15 +103,13 @@ h1, h2 ,.cards{
     color: #79f9e3;
     margin-bottom: 20px;
 }
-.cards{
+.cards {
     font-size: 25px;
     font-weight: bold;
     margin-top: 100px;
     margin-bottom: 55px;
     text-align: center;
-
 }
-
 .lore-intro {
     margin: 80px auto;
     width: 90%;
@@ -144,7 +135,6 @@ h1, h2, .cards {
     color: #79f9e3;
     margin-bottom: 20px;
 }
-
 .cards {
     font-size: 25px;
     font-weight: bold;
@@ -152,7 +142,6 @@ h1, h2, .cards {
     margin-bottom: 55px;
     text-align: center;
 }
-
 .feature-row {
     display: flex;
     justify-content: center;
@@ -160,7 +149,6 @@ h1, h2, .cards {
     flex-wrap: wrap;
     margin-top: 40px;
 }
-
 .feature-card {
     background: rgba(0, 20, 25, 0.45);
     border: 2px solid rgba(121,249,227,0.25);
@@ -171,7 +159,6 @@ h1, h2, .cards {
     transition: 0.4s ease;
     box-shadow: 0 0 15px rgba(121,249,227,0.2);
 }
-
 .feature-card:hover {
     transform: scale(1.05);
     box-shadow: 0 0 25px rgba(121,249,227,0.6);
@@ -227,23 +214,18 @@ h1, h2, .cards {
     transition: 0.3s ease;
     font-size: 1rem;
 }
-
 .social-icon.youtube:hover {
     background: #ff0000;
     color: white;
 }
-
 .social-icon.insta:hover {
     background: linear-gradient(45deg, #feda75, #d62976, #962fbf, #4f5bd5);
     color: white;
 }
-
 .social-icon.twitter:hover {
     background: #1da1f2;
     color: white;
 }
-
-
 footer {
     background: #000;
     color: #888;
@@ -251,14 +233,10 @@ footer {
     text-align: center;
     font-size: 0.9rem;
 }
-
-body {
-}
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
 }
-
 .nav-logo {
     transition: 0.3s ease;
 }
@@ -266,11 +244,9 @@ body {
     transform: scale(1.12);
     box-shadow: 0 0 20px rgba(121,249,227,0.9);
 }
-
 .navbar {
     animation: navDrop 0.8s ease-out;
 }
-
 .hero .text:first-child {
     animation: slideLeft 1.2s ease;
 }
@@ -278,7 +254,6 @@ body {
     from { opacity: 0; transform: translateX(-50px); }
     to { opacity: 1; transform: translateX(0); }
 }
-
 .hero .text:last-child {
     animation: slideRight 1.2s ease;
 }
@@ -286,11 +261,9 @@ body {
     from { opacity: 0; transform: translateX(50px); }
     to { opacity: 1; transform: translateX(0); }
 }
-
 article:hover {
     transform: scale(1.03) rotate(0.7deg);
 }
-
 @media (max-width: 900px) {
     .hero {
         flex-direction: column;
@@ -308,7 +281,6 @@ article:hover {
         height: auto;
     }
 }
-
 @media (max-width: 600px) {
     .navbar {
         width: 95%;
