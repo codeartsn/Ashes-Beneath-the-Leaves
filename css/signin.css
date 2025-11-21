@@ -14,7 +14,6 @@ body {
 }
 
 
-/* Container Box */
 .auth-container {
     background: rgba(0, 20, 25, 0.7);
     backdrop-filter: blur(10px);
@@ -32,7 +31,6 @@ body {
     font-size: 1.5rem;
 }
 
-/* Inputs */
 .auth-container input {
     width: 100%;
     padding: 12px;
@@ -48,7 +46,6 @@ body {
     color: #8feee0;
 }
 
-/* Button */
 .auth-btn {
     width: 100%;
     padding: 12px;
@@ -66,7 +63,6 @@ body {
     opacity: 0.8;
 }
 
-/* Switch text */
 .switch {
     margin-top: 20px;
     font-size: 0.9rem;

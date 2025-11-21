@@ -17,7 +17,6 @@ body {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    object-fit: cover;
     border: 2px solid #79f9e3;
     box-shadow: 0 0 12px rgba(121,249,227,0.6);
 }
@@ -26,7 +25,6 @@ body {
     position: fixed;
     top: 20px;
     left: 50%;
-    transform: translateX(-50%);
     width: 75%;
     height: 35px;
     max-width: 1100px;
@@ -40,13 +38,7 @@ body {
     border: 1px solid rgba(255,255,255,0.1);
     box-shadow: 0 0 25px rgba(121,249,227,0.15);
     z-index: 999;
-}
-.logo {
-    flex: 0 0 auto;
-    font-size: 1.3rem;
-    color: #79f9e3;
-    font-weight: bold;
-    white-space: nowrap;
+    transform: translateX(-50%);
 }
 .nav-scroll {
     flex: 1;
@@ -54,16 +46,7 @@ body {
     overflow-x: auto;
     white-space: nowrap;
     scrollbar-width: none;
-    -ms-overflow-style: none;
-    scroll-snap-type: x mandatory;
-
 }
-
-.nav-scroll::-webkit-scrollbar {
-    display: none;
-}
-
-
 .nav-scroll a {
     flex: 0 0 22%;
     text-align: center;
@@ -193,16 +176,13 @@ h1, h2, .cards {
     transform: scale(1.05);
     box-shadow: 0 0 25px rgba(121,249,227,0.6);
 }
-
 .feature-card h3 {
     color: #79f9e3;
     margin-bottom: 10px;
 }
-
 .feature-card p {
     font-size: 0.9rem;
 }
-
 .btn {
     display: inline-block;
     margin-top: 25px;
@@ -218,7 +198,6 @@ h1, h2, .cards {
     background: radial-gradient(circle at top, #1a2b2e, #0a0f12, #000000);
     color: #fff;
 }
-
 .social-bar {
     background: rgba(200, 200, 200, 0.15);
     border-top: 1px solid rgba(255,255,255,0.15);
@@ -228,19 +207,16 @@ h1, h2, .cards {
     margin-top: 80px;
     backdrop-filter: blur(5px);
 }
-
 .social-bar h3 {
     color: #e0e0e0;
     font-size: 1.5rem;
     margin-bottom: 25px;
 }
-
 .social-links {
     display: flex;
     justify-content: center;
     gap: 35px;
 }
-
 .social-icon {
     padding: 12px 25px;
     border-radius: 10px;
