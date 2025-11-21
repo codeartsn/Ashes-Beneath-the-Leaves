@@ -60,7 +60,7 @@ body {
     color: #79f9e3;
 }
 .logo {
-    font-size: 1.3rem;
+    font-size: 21px;
     color: #79f9e3;
     font-weight: bold;
     letter-spacing: 2px;
@@ -128,7 +128,7 @@ h1, h2 ,.cards{
 
 .lore-title {
     color: #79f9e3;
-    font-size: 1.8rem;
+    font-size: 29px;
     margin-bottom: 15px;
 }
 h1, h2, .cards {
@@ -168,7 +168,7 @@ h1, h2, .cards {
     margin-bottom: 10px;
 }
 .feature-card p {
-    font-size: 0.9rem;
+    font-size: 14.5px;
 }
 .btn {
     display: inline-block;
@@ -196,7 +196,7 @@ h1, h2, .cards {
 }
 .social-bar h3 {
     color: #e0e0e0;
-    font-size: 1.5rem;
+    font-size: 18px;
     margin-bottom: 25px;
 }
 .social-links {
@@ -212,7 +212,7 @@ h1, h2, .cards {
     color: #111;
     background: #dcdcdc;
     transition: 0.3s ease;
-    font-size: 1rem;
+    font-size: 16px;
 }
 .social-icon.youtube:hover {
     background: #ff0000;
@@ -231,7 +231,7 @@ footer {
     color: #888;
     padding: 20px;
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 14px;
 }
 @keyframes fadeIn {
     from { opacity: 0; }
@@ -287,7 +287,7 @@ article:hover {
         font-size: 22px;
     }
     h1 {
-        font-size: 1.6rem;
+        font-size: 25px;
     }
 }
 

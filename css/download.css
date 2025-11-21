@@ -5,8 +5,7 @@ body {
     color: #d4e3e1;
     text-align: center;
 }
-
-.download-wrapper {
+.download {
     padding: 60px 20px;
 }
 
@@ -36,24 +35,20 @@ body {
     text-align: center;
     backdrop-filter: blur(8px);
 }
-
 .card-img {
     width: 80px;
     margin-bottom: 15px;
 }
-
 .download-card h2 {
     color: #79f9e3;
     margin-bottom: 10px;
 }
-
 .download-card p {
     font-size: 0.95rem;
     margin-bottom: 20px;
 }
-
 .download-btn {
-    display: inline-block;
+    display: block;
     padding: 12px 20px;
     background: #00ffc6;
     color: #00221c;
@@ -62,7 +57,6 @@ body {
     text-decoration: none;
     transition: 0.3s ease;
 }
-
 .download-btn:hover {
     background: #79f9e3;
 }

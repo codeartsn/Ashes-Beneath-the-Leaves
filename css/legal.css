@@ -29,7 +29,7 @@ body {
 
 .title {
     color: #79f9e3;
-    font-size: 1.7rem;
+    font-size: 27px;
 }
 
 .policy-container {
@@ -44,7 +44,7 @@ h1, h2 {
 }
 
 .update {
-    font-size: 0.9rem;
+    font-size: 14px;
     color: #8be8d2;
     margin-bottom: 20px;
 }
@@ -55,7 +55,7 @@ ul {
 }
 
 .email {
-    font-size: 1rem;
+    font-size: 16px;
     color: #79f9e3;
 }
 
