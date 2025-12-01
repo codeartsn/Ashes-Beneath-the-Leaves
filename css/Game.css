@@ -86,7 +86,6 @@ main {
 }
 #map{
     display: flex;
-    justify-content: flex-end;
     height: 200px;
     width: 310px;
     border-radius: 50px;
@@ -203,6 +202,7 @@ h1, h2, .cards {
     gap: 35px;
 }
 .icon {
+    width: 90px;
     padding: 12px 25px;
     border-radius: 10px;
     text-decoration: none;
@@ -212,16 +212,16 @@ h1, h2, .cards {
     transition: 0.3s ease;
     font-size: 16px;
 }
-.social-icon.youtube:hover {
+.youtube:hover {
     background: #ff0000;
     color: white;
 }
-.social-icon.insta:hover {
+.insta:hover {
     background: linear-gradient(45deg, #feda75, #d62976, #962fbf, #4f5bd5);
     color: white;
 }
-.social-icon.twitter:hover {
-    background: #1da1f2;
+.X:hover {
+    background: black;
     color: white;
 }
 footer {
