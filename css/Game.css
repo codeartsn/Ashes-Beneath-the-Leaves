@@ -268,17 +268,9 @@ footer {
         width: 260px;
         height: 180px;
     }
-}
-@media (max-width: 600px) {
     .navbar {
         width: 95%;
         padding: 15px 20px;
-    }
-    .cards {
-        font-size: 22px;
-    }
-    h1 {
-        font-size: 25px;
     }
 }
 
