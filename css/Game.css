@@ -213,7 +213,7 @@ h1, h2, .cards {
     font-size: 16px;
 }
 .youtube:hover {
-    background: #ff0000;
+    background-color: #ff0000;
     color: white;
 }
 .insta:hover {
@@ -221,7 +221,11 @@ h1, h2, .cards {
     color: white;
 }
 .X:hover {
-    background: black;
+    background-color: black;
+    color: white;
+}
+.Linkedin:hover {
+    background-color: #0077B5;
     color: white;
 }
 footer {
@@ -230,6 +234,19 @@ footer {
     padding: 20px;
     text-align: center;
     font-size: 14px;
+}
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    top: 20px;
+    gap: 20px;
+}
+.footer-links a {
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 @keyframes fadeIn {
     from { opacity: 0; }
